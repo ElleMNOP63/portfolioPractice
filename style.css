@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --mainColor: rgb(226, 109, 0);
+    --accentColor: rgb(57, 100, 75);
+    --backgroundColor: rgb(255, 209, 188);
+}
+.container{
+    width: 100%;
+    height: fit-content;
+    padding-left: 0px;
+}
+.navBar{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.navButtons{
+    padding-right: 40px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.navBar a{
+    color: var(--mainColor);
+    text-decoration: none;
+}
+main{
+    margin-top: 0px;
+}
+section{
+    padding-top: 60px;
+    height: 100vh;
+    border-bottom: dotted 4px --accentColor
+}
+#landingCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'The Girl Next Door', cursive;
+    background-color: var(--backgroundColor);
+}
+#landingCard h1{
+    font-size: 48px;
+    color: var(--mainColor);
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(252, 239, 124);
+    border-radius: 50%;
+}
